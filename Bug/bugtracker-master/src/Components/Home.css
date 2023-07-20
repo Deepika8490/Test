@@ -1,0 +1,404 @@
+.banner-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url("./Mainpage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-blend-mode: overlay;
+    align-items: center;
+    color:rgb(247, 238, 238);
+   
+}
+
+.row-container {
+  display: flex;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.Project-row-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  border: solid black 1px;
+}
+
+
+
+.pointer-icon{
+    position: absolute;
+    right: 10%;
+
+  }
+
+  .pointer-icon:hover{
+    cursor: pointer;
+  }
+
+  .FaPlusIcon {
+    cursor: pointer;
+  }
+
+.icon-container {
+  padding-left: 50px;  
+  float:left;
+}
+
+.Project-icon-container {
+  padding-left: 70px;  
+  float:left;
+}
+
+.Project-heading-container {
+  margin-left: 32%;
+  flex-grow: 1;
+  display: flex;}
+
+.heading-container {
+  margin-left: 22%;
+  flex-grow: 1;
+  display: flex;}
+/* }
+.button-class
+{
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    height: 35px;
+    padding:5px;
+} */
+button
+{
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    height: 35px;
+    padding:5px;
+}
+
+
+.FaPlusIcon {
+
+  cursor: pointer;
+
+}
+.header-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  padding: 10px;
+  flex-grow: 1;
+  margin-left:30%;
+}
+
+.alignright {
+  left:5%;
+  top:5%;
+  position:absolute;
+ 
+}
+
+.Project-align{
+    /* margin-top:1%; */
+    margin-right: 45px;
+    float:right;
+}
+
+.align{
+    /* margin-top:1%; */
+    margin-right: 35px;
+    float:right;
+}
+
+.card-red {
+  width: 200px;
+  height: 150px;
+  background: rgb(226, 127, 127);
+  box-shadow: 3px 3px 2px 3px rgb(240, 235, 235);
+  font-weight: 600;
+  padding: 20px;
+  color:white;
+}
+.cardu {
+  width: 200px;
+  height: 150px;
+  background: rgb(139, 200, 209);
+  box-shadow: 3px 3px 2px 3px rgb(240, 235, 235);
+  font-weight: 600;
+  padding: 20px;
+}
+
+.priority-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap:4px;
+  
+}
+
+.priority-ball {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.priority-text {
+  position: absolute;
+  top: -20px;
+  left: 70%;
+  transform: translateX(-80%);
+  font-size: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.Project-form-control
+{
+  float: left;
+  width: 75%;
+}
+
+input[type=text] {
+  width: 95%;
+  padding: 12px;
+}
+
+.Project-form-label{
+  float: left;
+  width: 25%;
+  margin-top: 12px;
+}
+
+.priority-ball:hover .priority-text {
+  opacity: 1;
+}
+
+.high-priority {
+  background-color: rgb(245, 67, 67);
+  color: white;
+}
+
+.medium-priority {
+  background-color: rgb(237, 237, 99);
+  color: black;
+}
+
+.low-priority {
+  background-color: rgb(145, 230, 145);
+  color: white;
+}
+
+.addbox{
+    width:150px;
+}
+.space{
+    
+    width:60px;
+    border-width:0px;
+    height:30px;
+}
+.footerposition{
+    top:95%;
+    position:fixed;
+    left:40%;
+    
+}
+.copyrights{
+  color:black;
+}
+.projectmain{
+    background-image:url('https://th.bing.com/th/id/OIP.54aDRJHlX7jC15ANjLWg-QHaEo?pid=ImgDet&rs=1') ;
+}
+
+.copyrights{
+    color:black;
+}
+
+.validations{
+    color: red;
+}
+
+.App {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .seperator {
+    width: 90%;
+  }
+  
+  .controls-wrapper {
+    width: 100%;
+  }
+  
+  .carousel-wrapper {
+    width: 80%;
+  }
+  
+
+  .carousel-wrapper .rec.rec-arrow {
+    background-color: #f0f0f0; 
+    color: #333; 
+    border-radius: 50%; 
+    width: 50px; 
+    height: 45px; 
+    font-size: 24px; 
+    position: relative; 
+  }
+  
+  .carousel-wrapper .rec.rec-arrow:hover {
+    background-color: #ccc;
+    color: #000; 
+  }
+
+.carousel-wrapper .rec-pagination .rec-dot {
+    background-color:white; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    margin: 5px; 
+    transition: background-color 0.3s ease; 
+    
+  }
+  
+  .carousel-wrapper .rec-pagination .rec-dot:hover {
+    background-color: #888; 
+  }
+  
+  .carousel-wrapper .rec-pagination {
+    position: absolute; 
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+
+  .filters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px black solid;
+    padding: 10px;
+
+  }
+
+  .Mains-Container{
+    display: grid;
+    grid-template-rows: 100px 180px 1fr;
+    grid-gap: 5px;
+    padding-right:1%;
+    padding-left: 0.5%;
+    padding-top:10px;
+    padding-bottom:10px;
+    overflow: hidden;
+  }
+
+  .clickable- {
+    cursor: pointer;
+  }
+
+  .table-1stcol{
+    position: relative;
+  }
+
+.pointer-icon1{
+  position: absolute;
+  right: 25%;
+}
+
+.pointer-icon1:hover{
+  cursor: pointer;
+
+  }
+  .pointer-icon2{
+    position: absolute;
+    right: 10%;
+  }
+  .pointer-icon2:hover{
+    cursor: pointer;
+  }
+
+  .FaPlusIcon {
+    cursor: pointer;
+  }
+
+.FaPlusIcon > FaPlus{
+  height: 30px;
+  width: 30px;
+}
+
+.row- {
+  display: flex;
+  flex-direction: row;
+}
+
+  .header-background-color{
+    background-color: #ffffff;
+  }
+
+  .button-background-color{
+    background-color: #183841;
+    color: #eee;
+    border-radius: 5px;
+    padding: 6px 6px;
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  .IssueStatusBar-background-color{
+    background-color:rgb(199, 206, 207);
+  }
+
+  .clickable-element {
+    cursor: pointer;
+  }
+
+  .link-element{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .add-project-col::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* .add-project-col {
+    float: center;
+    margin-top: 6px;
+    text-align: left;
+    padding-left: 1%; 
+  } */
+  .Issue-table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
